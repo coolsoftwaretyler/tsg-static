@@ -1,0 +1,6 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule ^/$ /dir/userdo?action=home [L] # Home page URL to index
+RewriteRule ^/index.html$ /dir/userdo?action=home [L] # hide index.html on home page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /tagword/([^/]+/)*index\.html
+RewriteRule ^tagword/(([^/]+/)*)index\.html$ http://www.example.com/tagword/$1 [R=301,L]
