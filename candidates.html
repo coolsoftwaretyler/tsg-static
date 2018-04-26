@@ -575,28 +575,35 @@ var LS_Meta = {"v":"6.7.1"};
 		<div id="mk-quick-contact">
 			<div class="mk-quick-contact-title">Contact Us</div>
 			<p>Send us an email and we'll get back to you, asap.</p>
-			<form class="mk-contact-form" method="post" novalidate="novalidate">
-				<input type="text" placeholder="Name*" required="required" id="name" name="name" class="text-input" value="" tabindex="753" />
-				<input type="email" data-type="email" required="required" placeholder="Email*" id="email" name="email" class="text-input" value="" tabindex="754"  />
-				<textarea placeholder="Message*" required="required" id="content" name="content" class="textarea" tabindex="755"></textarea>
-								<input placeholder="Enter Captcha" type="text" data-type="captcha" name="captcha" class="captcha-form text-input full" required="required" autocomplete="off" />
-		        <a href="candidates.html#" class="captcha-change-image">Not readable? Change text.</a>
-	            <span class="captcha-image-holder">
-					<img src="wp-content/plugins/artbees-captcha/generate-captcha.php" class="captcha-image" alt="captcha txt"/>
+			<form class="mk-contact-form"id="gform" action="https://script.google.com/macros/s/AKfycbzWfFYk3bhJCxoNbTgfCiE1Wc26mXdHnLDEtT4eUR93HDAmlyuw/exec" method="post" novalidate="novalidate">
+				<fieldset class="pure-group">
+						<div style="display: none;">
+								<!--input id must be honeypot or else it wont work-->
+								<label class="sr-only">Keep this field blank</label>
+								<input id="honeypot" type="text" name="honeypot" value="" />
+								<!--the rest of your form-->
+								</fieldset>
+								<fieldset class="pure-group">
+				<input type="text" placeholder="Name*" required="required" id="name" name="name" class="text-input" value="" tabindex="769" />
+
+				<input type="email" data-type="email" required="required" placeholder="Email*" id="email" name="email" class="text-input" value="" tabindex="770"  />
+				<textarea placeholder="Message*" required="required" id="content" name="content" class="textarea" tabindex="771"></textarea>
+</fieldset>
 				</span>
 				<br/>
 
 				<div class="btn-cont">
-                    <button tabindex="756" class="mk-progress-button mk-contact-button accent-bg-color button" data-style="move-up">
-                        <span class="mk-progress-button-content">Send</span>
-                        <span class="mk-progress">
-                            <span class="mk-progress-inner"></span>
-                        </span>
-                        <span class="state-success"><svg  class="mk-svg-icon" data-name="mk-moon-checkmark" data-cacheid="icon-5add13481791c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"/></svg></span>
-                        <span class="state-error"><svg  class="mk-svg-icon" data-name="mk-moon-close" data-cacheid="icon-5add134817c0f" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M507.331 411.33l-.006-.005-155.322-155.325 155.322-155.325.006-.005c1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.08.775-4.035 1.984-5.709 3.655l-.004.005-155.324 155.326-155.324-155.325-.005-.005c-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914.776 2.08 1.985 4.036 3.656 5.708l.005.005 155.325 155.324-155.325 155.326-.004.005c-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.08-.776 4.035-1.985 5.708-3.656l.005-.005 155.324-155.325 155.324 155.325.006.004c1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-.776-2.08-1.985-4.034-3.657-5.707z"/></svg></span>
-                    </button>
-                </div>
-				<input type="hidden" id="security" name="security" value="8184e50726" /><input type="hidden" name="_wp_http_referer" value="/candidates/" />				<input type="hidden" id="sh_id" name="sh_id" value="15"><input type="hidden" id="p_id" name="p_id" value="2342">				<div class="contact-form-message clearfix"></div>
+										<button tabindex="772" class="mk-progress-button mk-contact-button accent-bg-color button" data-style="move-up">
+												<span class="mk-progress-button-content">Send</span>
+												<span class="mk-progress">
+														<span class="mk-progress-inner"></span>
+												</span>
+												<span class="state-success">
+													<svg  class="mk-svg-icon" data-name="mk-moon-checkmark" data-cacheid="icon-5add13417767f" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M432 64l-240 240-112-112-80 80 192 192 320-320z"/></svg></span>
+												<span class="state-error">
+													<svg  class="mk-svg-icon" data-name="mk-moon-close" data-cacheid="icon-5add134177890" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M507.331 411.33l-.006-.005-155.322-155.325 155.322-155.325.006-.005c1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.08.775-4.035 1.984-5.709 3.655l-.004.005-155.324 155.326-155.324-155.325-.005-.005c-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914.776 2.08 1.985 4.036 3.656 5.708l.005.005 155.325 155.324-155.325 155.326-.004.005c-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.08-.776 4.035-1.985 5.708-3.656l.005-.005 155.324-155.325 155.324 155.325.006.004c1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-.776-2.08-1.985-4.034-3.657-5.707z"/></svg></span>
+										</button>
+								</div>
 			</form>
 			<div class="bottom-arrow"></div>
 		</div>
@@ -636,5 +643,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/tsg.ogdenstudios.xyz\/wp-json\/cont
 	<script type="text/javascript">	window.get = {};	window.get.captcha = function(enteredCaptcha) {
                   return jQuery.get(ajaxurl, { action : "mk_validate_captcha_input", captcha: enteredCaptcha });
               	};</script>
+								<script data-cfasync="false" type="text/javascript" src="/form-submission-handler.js"></script>
+
 	</body>
 </html>
