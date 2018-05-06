@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/</loc>
+  <lastmod>2018-04-30T00:50:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/index</loc>
+  <lastmod>2018-04-30T00:50:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/about</loc>
+  <lastmod>2018-04-29T19:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/employers</loc>
+  <lastmod>2018-04-29T19:31:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/candidates</loc>
+  <lastmod>2018-04-29T23:01:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/submit-resume-for-review.html</loc>
+  <lastmod>2018-04-30T00:58:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/events</loc>
+  <lastmod>2018-04-29T23:04:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/index.html</loc>
+  <lastmod>2018-04-30T00:50:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/employer-form</loc>
+  <lastmod>2018-04-29T23:14:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/non-discrimination-policy.html</loc>
+  <lastmod>2018-04-29T23:06:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://tsg.ogdenstudios.xyz/wp-content/uploads/2017/04/Career-Fair-Brochure-for-Website.pdf</loc>
+  <lastmod>2018-04-29T19:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
