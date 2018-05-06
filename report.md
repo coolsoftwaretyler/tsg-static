@@ -1,8 +1,4 @@
 # TODO
-### Success Criteria 2.4.5 Multiple Ways (AA)
-- *Check 184:* Site missing site map.
-  - Do this.
-- Add tab index to message thing and the scroll up button
 - Slider on events page
 
 # THC Staffing Group WCAG Updates
