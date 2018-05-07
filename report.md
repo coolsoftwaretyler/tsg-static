@@ -1,17 +1,25 @@
-# TODO
-- Slider on events page
-
 # THC Staffing Group WCAG Updates
 ## Potential Problems - Outstanding
+- The issues in this section haven't yet been resolved, and may not need to be. They weren't on the list of "known issues", but we can get closer to AA standards if we consider making these changes.
 
 ### Success Criteria 2.4.1 Bypass Blocks (A)
 - *Check 28:* Document may be missing a "skip to content" link.
-  - This is subjective. I don't think you need a "skip to content" link because the slider *is* content in itself and offers links to specific parts of the site. We can add a link here easily if you think it would be a good touch.
+  - This is subjective. I don't think you need a "skip to content" link because most of the pages have content ale way at the top. If you want to go the extra mile, we can add one, though.
   - *Home, About, Employers, Candidates, Events, Submit Resume for Review, Employer Form*
 
 ### Success Criteria 2.4.2 Page Titled (A)
--  *Check 54:* title might not describe the document.
-  - `<title>THC Staffing Group | The Revolution is Hiring</title>`
+- *Check 54:* title might not describe the document.
+    - This warning is talking about the page titles, which are:
+
+      - THC Staffing Group | The Revolution is Hiring
+      - THC Staffing Group | About
+      - THC Staffing Group | For Employers
+      - THC Staffing Group | For Candidates
+      - Events
+      - Employer Form
+      - Non-Discrimination Policy
+      - Submit Resume for Review
+
     - This is up to you. I think the title is sufficient, and generally tells people what to expect: that TSG is a staffing agency, hiring people in a new industry. But you could, if you want, create a more verbose title. It wouldn't be as good for Search Engine Optimization, though.
     - *Home, About, Employers, Candidates, Events, Submit Resume for Review, Employer Form*
 
